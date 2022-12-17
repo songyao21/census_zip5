@@ -1,0 +1,475 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0019_ds249_20205_zcta'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2016-2020
+Geographic level: 5-Digit ZIP Code Tabulation Area
+Dataset:          2020 American Community Survey: 5-Year Data [2016-2020, Block Groups & Larger Areas]
+   NHGIS code:    2016_2020_ACS5a
+   NHGIS ID:      ds249
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Sex by Age
+   Universe:    Total population
+   Source code: B01001
+   NHGIS code:  AMPK
+ 
+2. Median Age by Sex
+   Universe:    Total population
+   Source code: B01002
+   NHGIS code:  AMPL
+ 
+3. Total Population
+   Universe:    Total population
+   Source code: B01003
+   NHGIS code:  AMPV
+ 
+4. Race
+   Universe:    Total population
+   Source code: B02001
+   NHGIS code:  AMPW
+ 
+5. Household Type (Including Living Alone)
+   Universe:    Households
+   Source code: B11001
+   NHGIS code:  AMQS
+ 
+6. Educational Attainment for the Population 25 Years and Over
+   Universe:    Population 25 years and over
+   Source code: B15003
+   NHGIS code:  AMRZ
+ 
+7. Median Household Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19013
+   NHGIS code:  AMR8
+ 
+8. Tenure by Vehicles Available
+   Universe:    Occupied housing units
+   Source code: B25044
+   NHGIS code:  AMVH
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATEA:      State Code
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place/Remainder Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2019-2021, 116th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEOID:       Census Geographic Identifier
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  AMPK
+        AMPKE001:    Total
+        AMPKE002:    Male
+        AMPKE003:    Male: Under 5 years
+        AMPKE004:    Male: 5 to 9 years
+        AMPKE005:    Male: 10 to 14 years
+        AMPKE006:    Male: 15 to 17 years
+        AMPKE007:    Male: 18 and 19 years
+        AMPKE008:    Male: 20 years
+        AMPKE009:    Male: 21 years
+        AMPKE010:    Male: 22 to 24 years
+        AMPKE011:    Male: 25 to 29 years
+        AMPKE012:    Male: 30 to 34 years
+        AMPKE013:    Male: 35 to 39 years
+        AMPKE014:    Male: 40 to 44 years
+        AMPKE015:    Male: 45 to 49 years
+        AMPKE016:    Male: 50 to 54 years
+        AMPKE017:    Male: 55 to 59 years
+        AMPKE018:    Male: 60 and 61 years
+        AMPKE019:    Male: 62 to 64 years
+        AMPKE020:    Male: 65 and 66 years
+        AMPKE021:    Male: 67 to 69 years
+        AMPKE022:    Male: 70 to 74 years
+        AMPKE023:    Male: 75 to 79 years
+        AMPKE024:    Male: 80 to 84 years
+        AMPKE025:    Male: 85 years and over
+        AMPKE026:    Female
+        AMPKE027:    Female: Under 5 years
+        AMPKE028:    Female: 5 to 9 years
+        AMPKE029:    Female: 10 to 14 years
+        AMPKE030:    Female: 15 to 17 years
+        AMPKE031:    Female: 18 and 19 years
+        AMPKE032:    Female: 20 years
+        AMPKE033:    Female: 21 years
+        AMPKE034:    Female: 22 to 24 years
+        AMPKE035:    Female: 25 to 29 years
+        AMPKE036:    Female: 30 to 34 years
+        AMPKE037:    Female: 35 to 39 years
+        AMPKE038:    Female: 40 to 44 years
+        AMPKE039:    Female: 45 to 49 years
+        AMPKE040:    Female: 50 to 54 years
+        AMPKE041:    Female: 55 to 59 years
+        AMPKE042:    Female: 60 and 61 years
+        AMPKE043:    Female: 62 to 64 years
+        AMPKE044:    Female: 65 and 66 years
+        AMPKE045:    Female: 67 to 69 years
+        AMPKE046:    Female: 70 to 74 years
+        AMPKE047:    Female: 75 to 79 years
+        AMPKE048:    Female: 80 to 84 years
+        AMPKE049:    Female: 85 years and over
+ 
+    Table 2:     Median Age by Sex
+    Universe:    Total population
+    Source code: B01002
+    NHGIS code:  AMPL
+        AMPLE001:    Median age: Total
+        AMPLE002:    Median age: Male
+        AMPLE003:    Median age: Female
+ 
+    Table 3:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  AMPV
+        AMPVE001:    Total
+ 
+    Table 4:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  AMPW
+        AMPWE001:    Total
+        AMPWE002:    White alone
+        AMPWE003:    Black or African American alone
+        AMPWE004:    American Indian and Alaska Native alone
+        AMPWE005:    Asian alone
+        AMPWE006:    Native Hawaiian and Other Pacific Islander alone
+        AMPWE007:    Some other race alone
+        AMPWE008:    Two or more races
+        AMPWE009:    Two or more races: Two races including Some other race
+        AMPWE010:    Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 5:     Household Type (Including Living Alone)
+    Universe:    Households
+    Source code: B11001
+    NHGIS code:  AMQS
+        AMQSE001:    Total
+        AMQSE002:    Family households
+        AMQSE003:    Family households: Married-couple family
+        AMQSE004:    Family households: Other family
+        AMQSE005:    Family households: Other family: Male householder, no spouse present
+        AMQSE006:    Family households: Other family: Female householder, no spouse present
+        AMQSE007:    Nonfamily households
+        AMQSE008:    Nonfamily households: Householder living alone
+        AMQSE009:    Nonfamily households: Householder not living alone
+ 
+    Table 6:     Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15003
+    NHGIS code:  AMRZ
+        AMRZE001:    Total
+        AMRZE002:    No schooling completed
+        AMRZE003:    Nursery school
+        AMRZE004:    Kindergarten
+        AMRZE005:    1st grade
+        AMRZE006:    2nd grade
+        AMRZE007:    3rd grade
+        AMRZE008:    4th grade
+        AMRZE009:    5th grade
+        AMRZE010:    6th grade
+        AMRZE011:    7th grade
+        AMRZE012:    8th grade
+        AMRZE013:    9th grade
+        AMRZE014:    10th grade
+        AMRZE015:    11th grade
+        AMRZE016:    12th grade, no diploma
+        AMRZE017:    Regular high school diploma
+        AMRZE018:    GED or alternative credential
+        AMRZE019:    Some college, less than 1 year
+        AMRZE020:    Some college, 1 or more years, no degree
+        AMRZE021:    Associate's degree
+        AMRZE022:    Bachelor's degree
+        AMRZE023:    Master's degree
+        AMRZE024:    Professional school degree
+        AMRZE025:    Doctorate degree
+ 
+    Table 7:     Median Household Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  AMR8
+        AMR8E001:    Median household income in the past 12 months (in 2020 inflation-adjusted dollars)
+ 
+    Table 8:     Tenure by Vehicles Available
+    Universe:    Occupied housing units
+    Source code: B25044
+    NHGIS code:  AMVH
+        AMVHE001:    Total
+        AMVHE002:    Owner occupied
+        AMVHE003:    Owner occupied: No vehicle available
+        AMVHE004:    Owner occupied: 1 vehicle available
+        AMVHE005:    Owner occupied: 2 vehicles available
+        AMVHE006:    Owner occupied: 3 vehicles available
+        AMVHE007:    Owner occupied: 4 vehicles available
+        AMVHE008:    Owner occupied: 5 or more vehicles available
+        AMVHE009:    Renter occupied
+        AMVHE010:    Renter occupied: No vehicle available
+        AMVHE011:    Renter occupied: 1 vehicle available
+        AMVHE012:    Renter occupied: 2 vehicles available
+        AMVHE013:    Renter occupied: 3 vehicles available
+        AMVHE014:    Renter occupied: 4 vehicles available
+        AMVHE015:    Renter occupied: 5 or more vehicles available
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  AMPK
+        AMPKM001:    Total
+        AMPKM002:    Male
+        AMPKM003:    Male: Under 5 years
+        AMPKM004:    Male: 5 to 9 years
+        AMPKM005:    Male: 10 to 14 years
+        AMPKM006:    Male: 15 to 17 years
+        AMPKM007:    Male: 18 and 19 years
+        AMPKM008:    Male: 20 years
+        AMPKM009:    Male: 21 years
+        AMPKM010:    Male: 22 to 24 years
+        AMPKM011:    Male: 25 to 29 years
+        AMPKM012:    Male: 30 to 34 years
+        AMPKM013:    Male: 35 to 39 years
+        AMPKM014:    Male: 40 to 44 years
+        AMPKM015:    Male: 45 to 49 years
+        AMPKM016:    Male: 50 to 54 years
+        AMPKM017:    Male: 55 to 59 years
+        AMPKM018:    Male: 60 and 61 years
+        AMPKM019:    Male: 62 to 64 years
+        AMPKM020:    Male: 65 and 66 years
+        AMPKM021:    Male: 67 to 69 years
+        AMPKM022:    Male: 70 to 74 years
+        AMPKM023:    Male: 75 to 79 years
+        AMPKM024:    Male: 80 to 84 years
+        AMPKM025:    Male: 85 years and over
+        AMPKM026:    Female
+        AMPKM027:    Female: Under 5 years
+        AMPKM028:    Female: 5 to 9 years
+        AMPKM029:    Female: 10 to 14 years
+        AMPKM030:    Female: 15 to 17 years
+        AMPKM031:    Female: 18 and 19 years
+        AMPKM032:    Female: 20 years
+        AMPKM033:    Female: 21 years
+        AMPKM034:    Female: 22 to 24 years
+        AMPKM035:    Female: 25 to 29 years
+        AMPKM036:    Female: 30 to 34 years
+        AMPKM037:    Female: 35 to 39 years
+        AMPKM038:    Female: 40 to 44 years
+        AMPKM039:    Female: 45 to 49 years
+        AMPKM040:    Female: 50 to 54 years
+        AMPKM041:    Female: 55 to 59 years
+        AMPKM042:    Female: 60 and 61 years
+        AMPKM043:    Female: 62 to 64 years
+        AMPKM044:    Female: 65 and 66 years
+        AMPKM045:    Female: 67 to 69 years
+        AMPKM046:    Female: 70 to 74 years
+        AMPKM047:    Female: 75 to 79 years
+        AMPKM048:    Female: 80 to 84 years
+        AMPKM049:    Female: 85 years and over
+ 
+    Table 2:     Median Age by Sex
+    Universe:    Total population
+    Source code: B01002
+    NHGIS code:  AMPL
+        AMPLM001:    Median age: Total
+        AMPLM002:    Median age: Male
+        AMPLM003:    Median age: Female
+ 
+    Table 3:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  AMPV
+        AMPVM001:    Total
+ 
+    Table 4:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  AMPW
+        AMPWM001:    Total
+        AMPWM002:    White alone
+        AMPWM003:    Black or African American alone
+        AMPWM004:    American Indian and Alaska Native alone
+        AMPWM005:    Asian alone
+        AMPWM006:    Native Hawaiian and Other Pacific Islander alone
+        AMPWM007:    Some other race alone
+        AMPWM008:    Two or more races
+        AMPWM009:    Two or more races: Two races including Some other race
+        AMPWM010:    Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 5:     Household Type (Including Living Alone)
+    Universe:    Households
+    Source code: B11001
+    NHGIS code:  AMQS
+        AMQSM001:    Total
+        AMQSM002:    Family households
+        AMQSM003:    Family households: Married-couple family
+        AMQSM004:    Family households: Other family
+        AMQSM005:    Family households: Other family: Male householder, no spouse present
+        AMQSM006:    Family households: Other family: Female householder, no spouse present
+        AMQSM007:    Nonfamily households
+        AMQSM008:    Nonfamily households: Householder living alone
+        AMQSM009:    Nonfamily households: Householder not living alone
+ 
+    Table 6:     Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15003
+    NHGIS code:  AMRZ
+        AMRZM001:    Total
+        AMRZM002:    No schooling completed
+        AMRZM003:    Nursery school
+        AMRZM004:    Kindergarten
+        AMRZM005:    1st grade
+        AMRZM006:    2nd grade
+        AMRZM007:    3rd grade
+        AMRZM008:    4th grade
+        AMRZM009:    5th grade
+        AMRZM010:    6th grade
+        AMRZM011:    7th grade
+        AMRZM012:    8th grade
+        AMRZM013:    9th grade
+        AMRZM014:    10th grade
+        AMRZM015:    11th grade
+        AMRZM016:    12th grade, no diploma
+        AMRZM017:    Regular high school diploma
+        AMRZM018:    GED or alternative credential
+        AMRZM019:    Some college, less than 1 year
+        AMRZM020:    Some college, 1 or more years, no degree
+        AMRZM021:    Associate's degree
+        AMRZM022:    Bachelor's degree
+        AMRZM023:    Master's degree
+        AMRZM024:    Professional school degree
+        AMRZM025:    Doctorate degree
+ 
+    Table 7:     Median Household Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  AMR8
+        AMR8M001:    Median household income in the past 12 months (in 2020 inflation-adjusted dollars)
+ 
+    Table 8:     Tenure by Vehicles Available
+    Universe:    Occupied housing units
+    Source code: B25044
+    NHGIS code:  AMVH
+        AMVHM001:    Total
+        AMVHM002:    Owner occupied
+        AMVHM003:    Owner occupied: No vehicle available
+        AMVHM004:    Owner occupied: 1 vehicle available
+        AMVHM005:    Owner occupied: 2 vehicles available
+        AMVHM006:    Owner occupied: 3 vehicles available
+        AMVHM007:    Owner occupied: 4 vehicles available
+        AMVHM008:    Owner occupied: 5 or more vehicles available
+        AMVHM009:    Renter occupied
+        AMVHM010:    Renter occupied: No vehicle available
+        AMVHM011:    Renter occupied: 1 vehicle available
+        AMVHM012:    Renter occupied: 2 vehicles available
+        AMVHM013:    Renter occupied: 3 vehicles available
+        AMVHM014:    Renter occupied: 4 vehicles available
+        AMVHM015:    Renter occupied: 5 or more vehicles available
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 17.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2022. 
+        http://doi.org/10.18128/D050.V17.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
