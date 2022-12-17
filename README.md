@@ -18,3 +18,5 @@ B15003. Educational Attainment for the Population 25 Years and Over
 B19013. Median Household Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
 
 B25044. Tenure by Vehicles Available
+
+To construct population density of each zip code, we also need the land area of each zip code. I extract zip code land area from https://www.census.gov/geographies/reference-files/time-series/geo/relationship-files.html#zcta
