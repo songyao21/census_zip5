@@ -1,7 +1,17 @@
 # census_zip5
 This repository extract certain demo info at zip code level from 2016 onwards
 The census data are based on 5-year American Community Surveys distributed by NHGIS (https://www.nhgis.org/).
-Data compiled for 2016 onward (latest is 2021). Tables downloaded from NHGIS are
+Data compiled for 2016 onward (latest is 2021). The resulted data contain the following yearly demographic information of each zip code:
+
+1. Population
+2. Population density
+3. Number of households
+4. Number of adults (older than 18)
+5. Median household income (inflaction-adjusted to December 2021)
+6. Car-owning fraction (defined as (car-owning dwelling units) / (dwelling units)
+7. College and above fraction out of residents 25 and older.
+
+Tables downloaded from NHGIS are
 
 B01001. Sex by Age
 
