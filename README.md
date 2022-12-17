@@ -1,7 +1,7 @@
 # census_zip5
 This repository extract certain demo info at zip code level from 2016 onwards
 The census data are based on 5-year American Community Surveys distributed by NHGIS (https://www.nhgis.org/).
-Data compiled for 2016 onward (latest is 2021). Tables extracted from NHGIS are
+Data compiled for 2016 onward (latest is 2021). Tables downloaded from NHGIS are
 
 B01001. Sex by Age
 
