@@ -15,12 +15,12 @@ save ./temp/landarea, replace
 // census data zip level, downloaded from NHGIS
 // unzip zipped data files
 cd ~/Documents/GitHub/census_zip5/input //data directory
-unzipfile ./input/nhgis0018_csv.zip, replace
-unzipfile ./input/nhgis0019_csv.zip, replace
-unzipfile ./input/nhgis0020_csv.zip, replace
-unzipfile ./input/nhgis0021_csv.zip, replace
-unzipfile ./input/nhgis0023_csv.zip, replace
-unzipfile ./input/nhgis0025_csv.zip, replace
+unzipfile ./nhgis0018_csv.zip, replace //2021
+unzipfile ./nhgis0019_csv.zip, replace //2020
+unzipfile ./nhgis0020_csv.zip, replace //2019
+unzipfile ./nhgis0021_csv.zip, replace //2018
+unzipfile ./nhgis0025_csv.zip, replace //2017
+unzipfile ./nhgis0023_csv.zip, replace //2016
 
 
 //working directory
