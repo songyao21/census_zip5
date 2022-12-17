@@ -1,5 +1,6 @@
-// land area
+//working directory
 cd ~/Documents/GitHub/census_zip5
+// land area
 // land area data downloaded from 
 // https://www.census.gov/geographies/reference-files/time-series/geo/relationship-files.html#zcta
 import delimited "./input/tab20_zcta520_county20_natl.txt", clear
@@ -11,6 +12,19 @@ replace arealand=arealand/1e+6 //convert from sq meter to sq kilometer
 duplicates drop //a zip code may appear in multiple counties. So there are duplicates
 save ./temp/landarea, replace
 
+// census data zip level, downloaded from NHGIS
+// unzip zipped data files
+cd ~/Documents/GitHub/census_zip5/input //data directory
+unzipfile ./input/nhgis0018_csv.zip, replace
+unzipfile ./input/nhgis0019_csv.zip, replace
+unzipfile ./input/nhgis0020_csv.zip, replace
+unzipfile ./input/nhgis0021_csv.zip, replace
+unzipfile ./input/nhgis0023_csv.zip, replace
+unzipfile ./input/nhgis0025_csv.zip, replace
+
+
+//working directory
+cd ~/Documents/GitHub/census_zip5
 
 // 2021
 // census data zip level, downloaded from NHGIS
