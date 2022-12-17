@@ -23,6 +23,7 @@ foreach v of varlist * {
    label variable `x' "`v'"
 }
 
+// For the definition of each variable, see the documentation file the unzipped folder
 rename ZCTA5 zipcode
 
 rename AON4E001 population
