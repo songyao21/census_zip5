@@ -1,4 +1,4 @@
-# census_zip5
+# Yearly Census demographic data at zip5 level
 This repository extract certain demo info at zip code level from 2016 onwards
 The census data are based on 5-year American Community Surveys, maintained and distributed by 
 IPUMS NHGIS, University of Minnesota, www.nhgis.org
