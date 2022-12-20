@@ -5,7 +5,8 @@ IPUMS NHGIS, University of Minnesota, www.nhgis.org. Please cite the original da
 
 > *Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. IPUMS National Historical Geographic Information System: Version 17.0 [dataset]. Minneapolis, MN: IPUMS. 2022. http://doi.org/10.18128/D050.V17.0*
 
-To construct population density of each zip code, I extract zip code land area from https://www.census.gov/geographies/reference-files/time-series/geo/relationship-files.html#zcta
+To construct population density of each zip code, I extract zip code land area from the US Census: 
+>https://www.census.gov/geographies/reference-files/time-series/geo/relationship-files.html#zcta
 
 Data compiled for 2016 onward (latest is 2021). The resulted data contain the following yearly demographic information of each zip code:
 1. Population
