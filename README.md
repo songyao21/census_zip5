@@ -1,9 +1,7 @@
 # Yearly Census demographic data at zip5 level
 This repository extract certain demo info at zip code level from 2016 onwards.
 The census data are based on 5-year American Community Surveys, maintained and distributed by 
-IPUMS NHGIS, University of Minnesota, www.nhgis.org. Please cite the original data source at NHGIS as:
-
-> *Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. IPUMS National Historical Geographic Information System: Version 17.0 [dataset]. Minneapolis, MN: IPUMS. 2022. http://doi.org/10.18128/D050.V17.0*
+IPUMS NHGIS, University of Minnesota, www.nhgis.org. 
 
 To construct population density of each zip code, I extract zip code land area from https://www.census.gov/geographies/reference-files/time-series/geo/relationship-files.html#zcta
 
@@ -34,3 +32,6 @@ B19013. Median Household Income in the Past 12 Months (in 2020 Inflation-Adjuste
 
 B25044. Tenure by Vehicles Available
 
+Please cite the original data source at NHGIS as:
+
+> *Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. IPUMS National Historical Geographic Information System: Version 17.0 [dataset]. Minneapolis, MN: IPUMS. 2022. http://doi.org/10.18128/D050.V17.0*
