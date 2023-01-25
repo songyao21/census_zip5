@@ -327,5 +327,44 @@ forval year=2017/2021{
 
 // check summary stats over time
 // bysort year: sum
+save ./temp/temp1, replace
+
+// extract zip code county-state information
+// crosswalk zip-county-state data. Using this one to identify whether a 
+// zip code is in the continous-contient (48 states plus DC)
+// https://www.kaggle.com/datasets/danofer/zipcodes-county-fips-crosswalk
+import delimited "./input/ZIP-COUNTY-FIPS_2017-06.csv", clear
+//remove Guam, Virgin Island, and Puerto Rico
+drop if state=="PR" | state=="VI" | state=="GU" | state=="HI" | state=="AK"
+rename zip zipcode
+rename stcountyfp fips
+sort zipcode fips
+keep zipcode
+duplicates drop
+save ./temp/temp2, replace
+
+// ZIP_COUNTY_122021.xlsx crosswalk data downloaded from 
+// https://www.huduser.gov/portal/datasets/usps_crosswalk.html#data
+// using 2021Q4 data
+import excel "./input/ZIP_COUNTY_122021.xlsx", clear first
+rename zip zipcode
+rename county fips
+destring zipcode fips, replace
+
+// each zip may be associated with multiple counties. keep the one with the highest
+// residential ratio
+gsort zipcode fips -res_ratio
+duplicates drop zipcode, force
+keep zipcode fips usps*
+rename usps_zip_pref_city city
+rename usps_zip_pref_state state
+
+merge 1:1 zipcode using ./temp/temp2
+gen continent=(_merge==2 | _merge==3)
+drop _merge
+
+save ./temp/temp2, replace
+
+merge 1:m zipcode using ./temp/temp1, nogen
 
 save ./output/census_zip5_2016_2021, replace
